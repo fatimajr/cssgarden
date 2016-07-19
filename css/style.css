@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/fondo.jpg");
+    background-repeat: repeat;
+    font-family: Verdana;
+}
+.page-wrapper {
+    width: 1150px;
+    border: 20px solid white;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+   	color: #009973;
+   	font-family: Verdana;
+   	font-size: 40px;
+}
+h2{
+	text-align: right;
+	color: #40bf80;
+}
+.summary, .explanation, .benefits{
+	text-align: right;
+	border-style: dotted;
+	border-color: #40bf80;
+	border-radius: 25px;
+	background-image: url("../images/papel.jpg");
+	color:#bf4080;
+}
+.h31, .h33, .h35{
+	text-align: left;
+	font-size: 25px;
+	color:#40bf80;
+}
+.preamble, .participation, .requirements{
+	text-align: left;
+	border-style: dotted;
+	border-color:  #40bf80;
+	border-radius: 25px;
+	background-image: url("../images/papel.jpg");
+	color:#bf4080;
+
+}
+.h32, .h34{
+	text-align: right;
+	font-size: 25px;
+	color: #40bf80;
+}
+
+footer{
+	width: 200px;
+    border: 20px solid white;
+    padding: 20px;
+    margin: 20px;
+}
+ul {
+    border: 1px solid #555;
+    border-color:  #40bf80;
+	border-radius: 25px;
+	border-style: dotted;
+	background-image: url("../images/papel.jpg");
+	color:#bf4080;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+.select, .archives, .resources{
+color:#bf4080;
+
+}
